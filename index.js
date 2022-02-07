@@ -32,7 +32,7 @@ const generateHtmlContent = (portfolios) => {
 
   portfolios.forEach(({ title, description, demo_url, repo_url, screenshot }) => {
     bodyContent += `
-      <div class="col s12 m3 l4">
+      <div class="col s12 m6 l3">
         <div class="card large">
           <div class="card-image">
             <img src=${screenshot}>
