@@ -1,0 +1,6 @@
+---
+title: A Simple Blog
+description: This project is built using Next.js and being deployed using Netlify.
+demo_url: https://cyyeh-blog.netlify.app/
+repo_url: https://github.com/cyyeh/next-js-blog/
+---
