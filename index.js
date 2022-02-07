@@ -30,7 +30,7 @@ const generateScreenshot = async (url, savedImage, dir = `dist/images/`) => {
 const generateHtmlContent = (portfolios) => {
   let bodyContent = `<div class="row">`
 
-  portfolios.forEach(({ title, description, demo_url, repo_url, screenshot }) => {
+  portfolios.forEach(({ title, description, demo_url, repo_url, screenshot }, index) => {
     bodyContent += `
       <div class="col s12 m6 l3">
         <div class="card large">
@@ -38,7 +38,10 @@ const generateHtmlContent = (portfolios) => {
             <img src=${screenshot}>
           </div>
           <div class="card-content">
-            <span class="card-title">${title}</span>
+            <span class="card-title" style="margin-bottom: 20px;">
+              <span style="border: 2px solid #666; border-radius: 5px; padding: 1px 5px; margin-right: 5px;">${index + 1}</span>
+              ${title}
+            </span>
             <p style="text-align: justify;">${description}</p>
           </div>
           <div class="card-action">
