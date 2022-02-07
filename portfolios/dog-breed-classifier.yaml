@@ -1,0 +1,6 @@
+---
+title: Dog Breed Classifier
+description: This project is built with frontend(Vanilla JavaScript, Materialize) and backend(FastAPI). The backend is disabled at the moment.
+demo_url: https://dog-breed-classifier.netlify.app/
+repo_url: https://github.com/cyyeh/dog-breed-classifier-project/
+---
