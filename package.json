@@ -1,0 +1,12 @@
+{
+	"type": "module",
+	"scripts": {
+		"build": "mkdir -p dist && node index.js > dist/index.html",
+		"deploy": "gh-pages -d dist"
+	},
+	"devDependencies": {
+		"gh-pages": "^3.2.3",
+		"micromark": "^3.0.10",
+		"micromark-extension-gfm": "^2.0.1"
+	}
+}
