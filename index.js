@@ -39,7 +39,7 @@ const generateHtmlContent = (portfolios) => {
           </div>
           <div class="card-content">
             <span class="card-title">${title}</span>
-            <p>${description}</p>
+            <p style="text-align: justify;">${description}</p>
           </div>
           <div class="card-action">
             <a href=${demo_url} target="_blank">Demo</a>
