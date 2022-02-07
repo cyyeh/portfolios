@@ -85,7 +85,7 @@ const generateHtmlContent = (portfolios) => {
     <body>
       <nav>
         <div class="nav-wrapper">
-          <a href="/portfolios" class="brand-logo"><i class="material-icons">computer</i>PORTFOLIOS</a>
+          <a href="/portfolios" class="brand-logo"><i class="material-icons">computer</i>Portfolios</a>
           <ul id="nav-mobile" class="right">
             <li>
               <a href="https://github.com/cyyeh/portfolios" target="_blank">
