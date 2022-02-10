@@ -1,5 +1,7 @@
 # Portfolios
 
+![Visualization of the codebase](./diagram.svg)
+
 ## Available scripts
 
 - `pnpm install`: install required dependencies based on `package.json` (or `pnpm-lock.yaml`)
