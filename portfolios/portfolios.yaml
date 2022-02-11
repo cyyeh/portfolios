@@ -1,6 +1,6 @@
 ---
 title: Portfolios
 description: This project is built using js-yaml, Node.js, puppeteer, etc. and being deployed using GitHub Pages.
-demo_url: https://cyyeh.github.io/portfolios/
+demo_url: https://cyyeh-portfolios.netlify.app/
 repo_url: https://github.com/cyyeh/portfolios/
 ---

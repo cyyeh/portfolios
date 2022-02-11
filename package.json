@@ -2,11 +2,11 @@
 	"type": "module",
 	"scripts": {
 		"build": "mkdir -p dist && node index.js > dist/index.html",
-		"deploy": "gh-pages -d dist"
+		"deploy": "netlify deploy"
 	},
 	"devDependencies": {
-		"gh-pages": "^3.2.3",
 		"js-yaml": "^4.1.0",
+		"netlify-cli": "^9.3.0",
 		"puppeteer": "^13.1.3"
 	}
 }

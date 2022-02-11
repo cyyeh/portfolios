@@ -21,6 +21,12 @@ const generateScreenshot = async (url, savedImage, dir = `dist/images/`) => {
 
   const browser = await puppeteer.launch()
   const page = await browser.newPage()
+  // Puppeteer sets an initial page size to 800×600px, which defines the screenshot size.
+  await page.setViewport({
+    width: 1280,
+    height: 720,
+    deviceScaleFactor: 1,
+  })
   await page.goto(url, { waitUntil: 'networkidle0' })
   await page.screenshot({ path: `${dir}${savedImage}` })
 
