@@ -2,7 +2,7 @@
 	"type": "module",
 	"scripts": {
 		"build": "mkdir -p dist && node index.js > dist/index.html",
-		"deploy": "netlify deploy"
+		"deploy": "pnpm build && netlify deploy"
 	},
 	"devDependencies": {
 		"js-yaml": "^4.1.0",
