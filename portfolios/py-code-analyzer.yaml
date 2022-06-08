@@ -1,6 +1,6 @@
 ---
 title: Python Code Analyzer
-description: The main purpose of the app is to allow Python developers navigate Python code base much easier by showing dependencies among files included in the directory with better visualization.
+description: The main purpose of the app is to allow Python developers navigate Python code base much easier by showing dependencies among files.
 demo_url: https://share.streamlit.io/cyyeh/py-code-analyzer/main/app.py
 repo_url: https://github.com/cyyeh/py-code-analyzer
 ---
